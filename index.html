@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculadora Científica</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="calculadora">
+        <input type="text" id="funcion" value="Math.sin(x)" placeholder="Introduce una función de x">
+        <button onclick="graficarFuncion(document.getElementById('funcion').value)">Graficar</button>
+        <canvas id="grafica"></canvas>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
